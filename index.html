@@ -28,10 +28,16 @@
     />
     <!-- User Style -->
     <link href="assets/css/style.css" rel="stylesheet" />
-    <style></style>
+
+    <script src="catjs/cat.js"></script>
+    <style>
+      .catjs{
+        z-index: 2;
+      }
+    </style>
   </head>
 
-  <body>
+  <body onLoad="cat()">
     <div id="bg">
       <div id="particles-js"></div>
       <div class="container">
